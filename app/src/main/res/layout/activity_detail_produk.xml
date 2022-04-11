@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/imageProduk"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/txtNamaProdukDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Nama Produk"/>
+    <TextView
+        android:id="@+id/txtHargaProdukDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        android:text="Harga Produk"/>
+    <TextView
+        android:id="@+id/txtDeskripsiProdukDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Deskripsi Produk"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/txtKategoriProdukDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kategori Produk"
+        android:textSize="15dp"
+        android:textStyle="italic"
+        android:layout_marginTop="10dp"/>
+
+
+</LinearLayout>
